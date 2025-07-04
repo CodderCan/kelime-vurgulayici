@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <style>
+    .kelime-item {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: #eee;
+      padding: 4px;
+      border-radius: 4px;
+      margin-bottom: 4px;
+    }
+
+    .kelime-item span {
+      background: red;
+      color: white;
+      padding: 3px 8px;
+      font-size: 13px;
+      border-radius: 3px;
+      flex-grow: 1;
+      overflow-wrap: anywhere;
+      margin-right: 8px;
+    }
+
+    .kelime-item button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: #666;
+      font-size: 16px;
+    }
+
+    .kelime-text {
+      background-color: red;
+      color: white;
+      font-size: 13px;
+      padding: 3px 8px;
+      border-radius: 3px;
+      max-width: 190px;
+      overflow-wrap: break-word;
+      white-space: normal;
+      flex-grow: 1;
+    }
+
+    .sil-btn {
+      background: none;
+      border: none;
+      cursor: pointer;
+      color: #888;
+      font-size: 16px;
+      flex-shrink: 0;
+    }
+
+    body {
+      width: 300px;
+    }
+
+    textarea {
+      height: 80px;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <strong data-i18n="title">Kelime Ekle</strong>
+  <textarea id="kelimeInput" data-i18n-placeholder="inputPlaceholder" placeholder="Her satıra bir kelime yaz"></textarea>
+
+  <label for="renkSec" data-i18n="chooseColor">Renk Seç:</label>
+  <select id="renkSec">
+  <option value="red" data-i18n="colorRed">Kırmızı</option>
+  <option value="blue" data-i18n="colorBlue">Mavi</option>
+  <option value="green" data-i18n="colorGreen">Yeşil</option>
+  <option value="orange" data-i18n="colorOrange">Turuncu</option>
+  </select>
+
+  <button id="kaydetBtn" data-i18n="saveBtn">Kaydet</button>
+
+  <div id="kelimeSayisi" data-i18n-count="kelimeSayisi">0 kayıtlı kelime var</div>
+
+  <input type="text" id="arama" data-i18n-placeholder="searchPlaceholder" placeholder="Kelime ara..." />
+
+  <div id="kelimeListesi"></div>
+
+  <button id="tumunuGor" data-i18n="seeAll">Tümünü Gör</button>
+  <button id="disariAktar" data-i18n="export">Dışa Aktar</button>
+  <button id="iceAktar" data-i18n="import">İçe Aktar</button>
+
+  <hr>
+  <div style="margin-top:10px;">
+    <label for="dilSec" data-i18n="chooseLang">Dil Seç:</label>
+    <select id="dilSec">
+      <option value="tr">Türkçe</option>
+      <option value="en">English</option>
+    </select>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

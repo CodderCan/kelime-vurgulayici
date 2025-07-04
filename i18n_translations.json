@@ -1,0 +1,34 @@
+{
+  "tr": {
+    "title": "Kelime Ekle",
+    "inputPlaceholder": "Her satıra bir kelime yaz",
+    "chooseColor": "Renk Seç:",
+    "saveBtn": "Kaydet",
+    "searchPlaceholder": "Kelime ara...",
+    "seeAll": "Tümünü Gör",
+    "export": "Dışa Aktar",
+    "import": "İçe Aktar",
+    "chooseLang": "Dil Seç:",
+    "colorRed": "Kırmızı",
+    "colorBlue": "Mavi",
+    "colorGreen": "Yeşil",
+    "colorOrange": "Turuncu",
+    "kelimeSayisi": "{count} kayıtlı kelime var"
+  },
+  "en": {
+    "title": "Add Word",
+    "inputPlaceholder": "Write one word per line",
+    "chooseColor": "Choose Color:",
+    "saveBtn": "Save",
+    "searchPlaceholder": "Search word...",
+    "seeAll": "See All",
+    "export": "Export",
+    "import": "Import",
+    "chooseLang": "Language:",
+    "colorRed": "Red",
+    "colorBlue": "Blue",
+    "colorGreen": "Green",
+    "colorOrange": "Orange",
+    "kelimeSayisi": "{count} saved words"
+  }
+}
