@@ -12,7 +12,7 @@
 * 🔍 **Arama & Filtreleme**: Kayıtlı kelime listesini ad-ya göre arayarak filtreleyin.
 * 🔄 **Dışa / İçe Aktar**: Kelime listenizi JSON olarak kaydedin veya yükleyin.
 * 🌐 **Çoklu Dil Desteği**: Türkçe ve İngilizce arayüz arasında geçiş yapın.
-* ⚙️ **Aktif / Pasif Anahtar**: Uzantıyı hızlıca etkinleştirip devre dışı bırakın.
+
 
 ---
 
